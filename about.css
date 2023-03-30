@@ -1,0 +1,44 @@
+*{
+   
+    box-sizing: border-box;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    margin: 0.5em;
+}
+.top nav{
+    background-color: rgb(9, 9, 46);
+    display: flex;
+    
+    justify-content: space-between;
+    box-shadow: 0 9px 12px gainsboro;
+position: fixed;
+}
+.top nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 20px;
+    padding-right: 1em;
+}
+.top nav ul li:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(14, 14, 66);
+    
+    }
+.top nav ul li:active{
+    text-decoration-line: underline;
+}
+.top nav a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    align-items: center;
+    width: 15%;
+    height: 12vh;
+    background-color: rgb(255, 255, 255);
+}
+.logo img{
+    width: 100%;
+}
